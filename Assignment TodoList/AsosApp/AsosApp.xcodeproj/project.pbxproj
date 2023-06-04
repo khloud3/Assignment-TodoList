@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861E03652A14ED9F00B36836 /* AsosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03642A14ED9F00B36836 /* AsosAppApp.swift */; };
+		861E03672A14ED9F00B36836 /* OpenAsosPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E03662A14ED9F00B36836 /* OpenAsosPage.swift */; };
+		861E03692A14EDA000B36836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E03682A14EDA000B36836 /* Assets.xcassets */; };
+		861E036C2A14EDA000B36836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E036B2A14EDA000B36836 /* Preview Assets.xcassets */; };
+		865F4B492A1588B200F31B00 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F4B482A1588B200F31B00 /* SignUpPage.swift */; };
+		865F4B4B2A15949B00F31B00 /* TapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F4B4A2A15949B00F31B00 /* TapBar.swift */; };
+		865F4B4D2A1599E300F31B00 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F4B4C2A1599E300F31B00 /* TopBar.swift */; };
+		86B8BEDD2A2C3D4800EF07A6 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8BEDC2A2C3D4800EF07A6 /* Clothing.swift */; };
+		86B8BEDF2A2C413F00EF07A6 /* AsosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8BEDE2A2C413F00EF07A6 /* AsosViewModel.swift */; };
+		86B8BEE12A2C425300EF07A6 /* AsosDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8BEE02A2C425300EF07A6 /* AsosDataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		861E03612A14ED9F00B36836 /* AsosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861E03642A14ED9F00B36836 /* AsosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosAppApp.swift; sourceTree = "<group>"; };
+		861E03662A14ED9F00B36836 /* OpenAsosPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAsosPage.swift; sourceTree = "<group>"; };
+		861E03682A14EDA000B36836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861E036B2A14EDA000B36836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		865F4B482A1588B200F31B00 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		865F4B4A2A15949B00F31B00 /* TapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBar.swift; sourceTree = "<group>"; };
+		865F4B4C2A1599E300F31B00 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		86B8BEDC2A2C3D4800EF07A6 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		86B8BEDE2A2C413F00EF07A6 /* AsosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosViewModel.swift; sourceTree = "<group>"; };
+		86B8BEE02A2C425300EF07A6 /* AsosDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsosDataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861E035E2A14ED9F00B36836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861E03582A14ED9F00B36836 = {
+			isa = PBXGroup;
+			children = (
+				861E03632A14ED9F00B36836 /* AsosApp */,
+				861E03622A14ED9F00B36836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861E03622A14ED9F00B36836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861E03612A14ED9F00B36836 /* AsosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861E03632A14ED9F00B36836 /* AsosApp */ = {
+			isa = PBXGroup;
+			children = (
+				861E03642A14ED9F00B36836 /* AsosAppApp.swift */,
+				861E03662A14ED9F00B36836 /* OpenAsosPage.swift */,
+				86B8BED92A2C3B6000EF07A6 /* Models */,
+				86B8BEDA2A2C3B7500EF07A6 /* ViewModel */,
+				86B8BEDB2A2C3B9000EF07A6 /* Views */,
+				861E03682A14EDA000B36836 /* Assets.xcassets */,
+				861E036A2A14EDA000B36836 /* Preview Content */,
+			);
+			path = AsosApp;
+			sourceTree = "<group>";
+		};
+		861E036A2A14EDA000B36836 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				861E036B2A14EDA000B36836 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86B8BED92A2C3B6000EF07A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86B8BEE02A2C425300EF07A6 /* AsosDataService.swift */,
+				86B8BEDC2A2C3D4800EF07A6 /* Clothing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86B8BEDA2A2C3B7500EF07A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86B8BEDE2A2C413F00EF07A6 /* AsosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86B8BEDB2A2C3B9000EF07A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				865F4B482A1588B200F31B00 /* SignUpPage.swift */,
+				865F4B4A2A15949B00F31B00 /* TapBar.swift */,
+				865F4B4C2A1599E300F31B00 /* TopBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861E03602A14ED9F00B36836 /* AsosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861E036F2A14EDA000B36836 /* Build configuration list for PBXNativeTarget "AsosApp" */;
+			buildPhases = (
+				861E035D2A14ED9F00B36836 /* Sources */,
+				861E035E2A14ED9F00B36836 /* Frameworks */,
+				861E035F2A14ED9F00B36836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsosApp;
+			productName = AsosApp;
+			productReference = 861E03612A14ED9F00B36836 /* AsosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861E03592A14ED9F00B36836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					861E03602A14ED9F00B36836 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 861E035C2A14ED9F00B36836 /* Build configuration list for PBXProject "AsosApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861E03582A14ED9F00B36836;
+			productRefGroup = 861E03622A14ED9F00B36836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861E03602A14ED9F00B36836 /* AsosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861E035F2A14ED9F00B36836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861E036C2A14EDA000B36836 /* Preview Assets.xcassets in Resources */,
+				861E03692A14EDA000B36836 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861E035D2A14ED9F00B36836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865F4B492A1588B200F31B00 /* SignUpPage.swift in Sources */,
+				86B8BEE12A2C425300EF07A6 /* AsosDataService.swift in Sources */,
+				86B8BEDF2A2C413F00EF07A6 /* AsosViewModel.swift in Sources */,
+				86B8BEDD2A2C3D4800EF07A6 /* Clothing.swift in Sources */,
+				865F4B4B2A15949B00F31B00 /* TapBar.swift in Sources */,
+				865F4B4D2A1599E300F31B00 /* TopBar.swift in Sources */,
+				861E03672A14ED9F00B36836 /* OpenAsosPage.swift in Sources */,
+				861E03652A14ED9F00B36836 /* AsosAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		861E036D2A14EDA000B36836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		861E036E2A14EDA000B36836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861E03702A14EDA000B36836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.AsosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		861E03712A14EDA000B36836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloud.AsosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861E035C2A14ED9F00B36836 /* Build configuration list for PBXProject "AsosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E036D2A14EDA000B36836 /* Debug */,
+				861E036E2A14EDA000B36836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861E036F2A14EDA000B36836 /* Build configuration list for PBXNativeTarget "AsosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E03702A14EDA000B36836 /* Debug */,
+				861E03712A14EDA000B36836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861E03592A14ED9F00B36836 /* Project object */;
+}
